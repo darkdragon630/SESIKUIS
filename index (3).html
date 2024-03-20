@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="slide" id="slide1">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxzLSBS/pusn.gif" alt="pusn" border="10"></a>
+      <h1>Hey Najwa,</h1>
+      <p id="loveMessage">aku mau tanya soal kamu boleh? <br> Kalau boleh jawab pertayaan ini ya
+        <br>Apa hobi kesukaanmu?
+      </p>
+      <form id="answerForm1" onsubmit="submitAnswer(1); return false;">
+        <label for="answer1">Hobi:</label>
+        <input type="text" id="answer1" required>
+        <button type="submit">Selanjutnya</button>
+      </form>
+    </div>
+
+    <div class="slide" id="slide2">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxzLSBS/pusn.gif" alt="pusn" border="10"></a>
+      <p id="loveMessage">Makanan kesukaanmu?</p>
+      <form id="answerForm2" onsubmit="submitAnswer(2); return false;">
+        <label for="answer2">Makanan Kesukaan:</label>
+        <input type="text" id="answer2" required>
+        <button type="submit">Selanjutnya</button>
+      </form>
+    </div>
+
+    <div class="slide" id="slide3">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxzLSBS/pusn.gif" alt="pusn" border="10"></a>
+      <p id="loveMessage">Sifat yang kamu miliki?</p>
+      <form id="answerForm3" onsubmit="submitAnswer(3); return false;">
+        <label for="answer3">Sifat yang Kamu Miliki:</label>
+        <input type="text" id="answer3" required>
+        <button type="submit">Selanjutnya</button>
+      </form>
+    </div>
+
+    <div class="slide" id="slide4">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxzLSBS/pusn.gif" alt="pusn" border="10"></a>
+      <p id="loveMessage">Cita-Cita atau Impianmu?</p>
+      <form id="answerForm4" onsubmit="submitAnswer(4); return false;">
+        <label for="answer4">Cita-Cita atau Impian:</label>
+        <input type="text" id="answer4" required>
+        <button type="submit">Selanjutnya</button>
+      </form>
+    </div>
+
+    <div class="slide" id="slide5">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/FxzLSBS/pusn.gif" alt="pusn" border="10"></a>
+      <p id="loveMessage">Lagu atau Film Favorit?</p>
+      <form id="answerForm5" onsubmit="submitAnswer(5); return false;">
+        <label for="answer5">Lagu atau Film Favorit:</label>
+        <input type="text" id="answer5" required>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

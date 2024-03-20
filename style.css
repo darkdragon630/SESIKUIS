@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, #f03586, #ff30a2);
+  overflow: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.slide {
+  display: none;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  width: 50%;
+  /* Sesuaikan dengan ukuran yang diinginkan */
+  height: auto;
+  /* Biarkan tinggi disesuaikan secara otomatis */
+  border-radius: 50%;
+  /* Efek melingkar untuk gambar */
+}
+
+#loveMessage {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #ff3352;
+}
+
+/* Efek bunga */
+.heart {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ff4d6a;
+  transform: rotate(45deg);
+  animation: love 4s infinite linear;
+}
+
+@keyframes love {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(45deg) scale(1.5);
+  }
+
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
