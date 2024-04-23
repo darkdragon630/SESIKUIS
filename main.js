@@ -1,4 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function ($) {
+    "use strict";
+
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -22,9 +24,9 @@ $(document).ready(function() {
     });
 
     // Add 'active' class to navbar link based on current URL
-    var url = window.location.href;
-    $('.nav-link').each(function() {
-        if (url.includes(this.href)) {
+    var url = window.location.pathname;
+    $('.navbar-nav .nav-link').each(function() {
+        if ($(this).attr('href') === url) {
             $(this).addClass('active');
         }
     });
