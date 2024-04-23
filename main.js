@@ -21,10 +21,12 @@ $(document).ready(function() {
         }
     });
 
-    // Event handling for navbar clicks
-    $('.nav-link').click(function() {
-        $('.nav-link').removeClass('active');
-        $(this).addClass('active');
+    // Add 'active' class to navbar link based on current URL
+    var url = window.location.href;
+    $('.nav-link').each(function() {
+        if (url === (this.href)) {
+            $(this).addClass('active');
+        }
     });
 
     // Back to top button
