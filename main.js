@@ -11,10 +11,8 @@
     };
     spinner();
     
-    
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -24,8 +22,7 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
-    
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -39,13 +36,11 @@
         return false;
     });
 
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-
 
     // Date and time picker
     $('.date').datetimepicker({
@@ -54,7 +49,6 @@
     $('.time').datetimepicker({
         format: 'LT'
     });
-
 
     // Header carousel
     $(".header-carousel").owlCarousel({
@@ -69,7 +63,6 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
-
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -93,6 +86,12 @@
         }
     });
 
-    
-})(jQuery);
+    // Memilih semua tombol header
+    $('.header-button').click(function(){
+        // Menghapus kelas active dari semua tombol header
+        $('.header-button').removeClass('active');
+        // Menambahkan kelas active ke tombol yang diklik
+        $(this).addClass('active');
+    });
 
+})(jQuery);
