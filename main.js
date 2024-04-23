@@ -24,7 +24,7 @@ $(document).ready(function() {
     // Add 'active' class to navbar link based on current URL
     var url = window.location.href;
     $('.nav-link').each(function() {
-        if (url === (this.href)) {
+        if (url.includes(this.href)) {
             $(this).addClass('active');
         }
     });
