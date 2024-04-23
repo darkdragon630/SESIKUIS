@@ -1,6 +1,4 @@
-(function ($) {
-    "use strict";
-
+$(document).ready(function() {
     // Spinner
     var spinner = function () {
         setTimeout(function () {
