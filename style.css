@@ -305,6 +305,7 @@
 
 .team-item:hover img {
     top: -30px;
+    transform: scale(1.1);
 }
 
 .team-item .team-text {
