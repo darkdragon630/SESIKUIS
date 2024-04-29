@@ -148,6 +148,14 @@
     }
 }
 
+.navbar {
+        margin-bottom: 20px;
+    }
+
+    /* Atau menambahkan padding bawah pada elemen <head> */
+    head {
+        padding-bottom: 20px;
+    }
 
 /*** Header ***/
 .header-carousel .owl-carousel-text {
