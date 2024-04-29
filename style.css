@@ -345,6 +345,10 @@
     top: auto !important;
 }
 
+.bg-dark {
+    background-color: black !important;
+}
+
 .bootstrap-datetimepicker-widget .table * {
     border-bottom-width: 0px;
 }
