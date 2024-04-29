@@ -301,12 +301,13 @@
     position: relative;
     top: 0;
     transition: .5s;
+    transform: scale(1.1); /* Menambahkan perbesaran default */
 }
 
 .team-item:hover img {
     top: -30px;
-    transform: scale(1.1);
 }
+
 
 .team-item .team-text {
     position: relative;
