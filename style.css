@@ -5,15 +5,6 @@
     --dark: #1B2C51;
 }
 
-.container {
-  display: flex;
-  flex-direction: column; /* Tata letak kolom di smartphone */
-}
-
-.item {
-  /* Gaya untuk setiap item konten */
-}
-
 .fw-medium {
     font-weight: 500 !important;
 }
