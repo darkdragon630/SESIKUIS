@@ -286,10 +286,6 @@ header {
     .container.feature {
         max-width: 100% !important;
     }
-
-    .container h1 {
-        font-size: 8vw;
-    }
     
     .feature-text  {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
