@@ -252,8 +252,10 @@ header {
     .page-header {
         background-position: center center;
         background-size: contain;
+        margin-top: 20px; /* Sesuaikan dengan jarak yang diinginkan */
     }
 }
+
 
 
 .breadcrumb-item + .breadcrumb-item::before {
