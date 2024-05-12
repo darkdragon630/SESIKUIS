@@ -248,6 +248,13 @@ header {
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
+@media only screen and (max-width: 768px) {
+    .page-header {
+        background-position: center center;
+    }
+}
+
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
