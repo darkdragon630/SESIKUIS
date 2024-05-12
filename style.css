@@ -254,6 +254,13 @@ header {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .page-header {
+        background-size: contain;
+    }
+}
+
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
