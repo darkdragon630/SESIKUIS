@@ -256,6 +256,13 @@ header {
     }
 }
 
+@media only screen and (min-width: 769px) {
+    .page-header {
+        background-size: cover;
+    }
+}
+
+
 
 
 .breadcrumb-item + .breadcrumb-item::before {
