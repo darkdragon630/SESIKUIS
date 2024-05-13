@@ -246,21 +246,6 @@ header {
     background: url(../header-page2.jpg) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
-    margin-top: 0; /* Menghapus margin di semua perangkat */
-}
-
-@media only screen and (max-width: 768px) {
-    .page-header {
-        background-position: center center;
-        background-size: contain;
-        margin-top: 10px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .page-header{
-        background-size: auto;
-    }
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
