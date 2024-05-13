@@ -243,7 +243,7 @@ header {
 }
 
 .page-header {
-    background: url(../header-page.jpeg) top center no-repeat;
+    background: url(../header-page1.png) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
     margin-top: 0; /* Menghapus margin di semua perangkat */
