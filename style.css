@@ -253,6 +253,7 @@ header {
     .page-header {
         background-position: center center;
         background-size: contain;
+        margin-top: 10px;
     }
 }
 
