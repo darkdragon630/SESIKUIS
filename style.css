@@ -253,15 +253,16 @@ header {
     .page-header {
         background-position: center center;
         background-size: contain;
-        margin-top: 10px; /* Mengatur margin atas sesuai kebutuhan di tampilan hp */
+        margin-top: 0; /* Mengatur margin atas sesuai kebutuhan di tampilan hp */
     }
 }
 
 @media only screen and (min-width: 769px) {
     .page-header {
-        background-size: contain; /* Sesuaikan untuk tampilan laptop */
+        background-size: 100% auto; /* Sesuaikan ukuran dengan lebar layar pada tampilan laptop */
     }
 }
+
 
 
 .breadcrumb-item + .breadcrumb-item::before {
